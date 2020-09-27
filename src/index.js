@@ -5,9 +5,15 @@ import ReactDOM from 'react-dom';
 // alternate to <React.Fragment>- </React.Fragment> or [ - ]we can also use <> - </>
 ReactDOM.render(
   <>
-    <h1>Welcome to React Basics</h1>,
-    <ol><li>Hello</li><li>Hello World</li></ol>,
-    <h2>Bye</h2>
+    <h1>Chander Bhanu's Favourite Anime List</h1>
+    <p>List Of Five Best Anime </p>
+    <ol>
+      <li>Fairy Tail</li>
+      <li>The Misfit At the Demon Academy</li>
+      <li>Naruto</li>
+      <li>Attack On Titans</li>
+      <li>Food Wars</li>
+    </ol>
   </>,
   document.getElementById('root')
 );
