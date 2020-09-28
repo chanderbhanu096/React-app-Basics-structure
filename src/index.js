@@ -2,10 +2,11 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 // import './index.css';
 
+const MyName = "Chander Bhanu's";
 // alternate to <React.Fragment>- </React.Fragment> or [ - ]we can also use <> - </>
 ReactDOM.render(
   <>
-    <h1>Chander Bhanu's Favourite Anime List</h1>
+    <h1>{MyName} Favourite Anime List</h1>
     <p>List Of Five Best Anime </p>
     <ol>
       <li>Fairy Tail</li>
