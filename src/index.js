@@ -1,6 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-// import './index.css';
+import './index.css';
 
 const MyName = "Chander Bhanu's";
 const currentDate = new Date().toLocaleDateString();
@@ -8,10 +8,10 @@ const currentTime = new Date().toLocaleTimeString();
 // alternate to <React.Fragment>- </React.Fragment> or [ - ]we can also use <> - </>
 ReactDOM.render(
   <>
-    <h1 contentEditable="true" >{MyName} Favourite Anime List</h1>
+    <h1 className= "heading" >{MyName} Favourite Anime List</h1>
     <p>List Of Five Best Anime </p>
     <ol>
-      <li>Fairy Tail</li>
+      <li className = "list_items">Fairy Tail</li>
       <li>The Misfit At the Demon Academy</li>
       <li>Naruto</li>
       <li>Attack On Titans</li>
