@@ -14,5 +14,6 @@ code {
 }
 
 .heading{
-  color: rgb(212, 212, 58)
+  color: rgb(185, 185, 48);
+  font-family:'Josefin Sans', sans-serif;             
 }
