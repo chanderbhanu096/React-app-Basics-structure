@@ -5,6 +5,10 @@ import './index.css';
 const MyName = "Chander Bhanu's";
 const currentDate = new Date().toLocaleDateString();
 const currentTime = new Date().toLocaleTimeString();
+const inlineCss ={
+  color:'	#FF0000',
+  textTransform:'capitalize'
+}
 // alternate to <React.Fragment>- </React.Fragment> or [ - ]we can also use <> - </>
 ReactDOM.render(
   <>
@@ -12,8 +16,12 @@ ReactDOM.render(
     <p>List Of Five Best Anime </p>
     <ol>
       <li className = "list_items">Fairy Tail</li>
-      <li>The Misfit At the Demon Academy</li>
-      <li>Naruto</li>
+
+       {/* One Way of writing inline CSS :passing css properties as an object*/}
+      <li style={inlineCss}>the Misfit At the Demon Academy</li> 
+
+      {/* second way of passing css properties is passing those  like object directly i.e.{object} and object = {css properties} */}
+      <li style={{color:'	#FF0000',textTransform:'capitalize'}}>Naruto</li>
       <li>Attack On Titans</li>
       <li>Food Wars</li>
     </ol>
